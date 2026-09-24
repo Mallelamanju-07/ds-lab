@@ -1,4 +1,4 @@
 import re
-text="This is\t a \n test"
+text="DS is\t very \n useful"
 split_text=re.split(r'\s+',text)
 print(split_text)
